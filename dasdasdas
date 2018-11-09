@@ -1,0 +1,166 @@
+[33mcommit 723fedc655558b024cf6780d0da7ad55b4cb1ac8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Raymond Calderon <raymond.cm21@gmail.com>
+Date:   Thu Nov 8 10:31:46 2018 -0600
+
+    format doc
+
+[1mdiff --git a/practicaframe01.html b/practicaframe01.html[m
+[1mindex d57c3a3..dda290c 100644[m
+[1m--- a/practicaframe01.html[m
+[1m+++ b/practicaframe01.html[m
+[36m@@ -59,18 +59,28 @@[m
+             <a-plane color="#f1ca6f" width=".20" height=".15" position="0 .6 .301" material="" geometry=""></a-plane>[m
+         </a-box>[m
+         <!--Brazos-->[m
+[31m-        <a-box color="#f1ca6f" width=".4" height="1.3" depth=".4" position=".7 1.4 -1.4" rotation="225 0 0" material="" geometry="">[m
+[31m-            <a-plane color="#15bfbc" width=".40" height=".40" position="0 -.651 0" rotation="90 0 0" material="" geometry="" side="double">[m
+[31m-                <a-plane color="#15bfbc" width=".40" height=".40" position="0 0.201 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[31m-                <a-plane color="#15bfbc" width=".40" height=".40" position="0 -0.201 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[31m-                <a-plane color="#15bfbc" width=".40" height=".40" position=".201 0 -.2" rotation="180 90 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m        <a-box color="#f1ca6f" width=".4" height="1.3" depth=".4" position=".7 1.4 -1.4" rotation="225 0 0" material=""[m
+[32m+[m[32m            geometry="">[m
+[32m+[m[32m            <a-plane color="#15bfbc" width=".40" height=".40" position="0 -.651 0" rotation="90 0 0" material=""[m
+[32m+[m[32m                geometry="" side="double">[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 0.201 -.2" rotation="90 0 0" material=""[m
+[32m+[m[32m                    geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 -0.201 -.2" rotation="90 0 0" material=""[m
+[32m+[m[32m                    geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position=".201 0 -.2" rotation="180 90 0" material=""[m
+[32m+[m[32m                    geometry="" side="double"></a-plane>[m
+             </a-plane>[m
+         </a-box>[m
+[31m-        <a-box color="#f1ca6f" width=".4" height="1.3" depth=".4" position="-.7 1.7 -.5" rotation="90 0 0" material="" geometry="">[m
+[31m-            <a-plane color="#15bfbc" width=".40" height=".40" position="0 -.651 0" rotation="90 0 0" material="" geometry="" side="double">[m
+[31m-                <a-plane color="#15bfbc" width=".40" height=".40" position="0 0.2 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[31m-                <a-plane color="#15bfbc" width=".40" height=".40" position="0 -0.2 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[31m-                <a-plane color="#15bfbc" width=".40" height=".40" position="-.201 0 -.2" rotation="180 90 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m        <a-box color="#f1ca6f" width=".4" height="1.3" depth=".4" position="-.7 1.7 -.5" rotation="90 0 0" material=""[m
+[32m+[m[32m            geometry="">[m
+[32m+[m[32m            <a-plane color="#15bfbc" width=".40" height=".40" position="0 -.651 0" rotation="90 0 0" material=""[m
+[32m+[m[32m                geometry="" side="double">[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 0.2 -.2" rotation="90 0 0" material=""[m
+[32m+[m[32m                    geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 -0.2 -.2" rotation="90 0 0" material=""[m
+[32m+[m[32m                    geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="-.201 0 -.2" rotation="180 90 0" material=""[m
+[32m+[m[32m                    geometry="" side="double"></a-plane>[m
+             </a-plane>[m
+         </a-box>[m
+         <!--Plano-->[m
+
+[33mcommit 1499e6b062c9f4aa4da33859bd931b31a2bf5830[m
+Author: Raymond Calderon <raymond.cm21@gmail.com>
+Date:   Thu Nov 8 10:20:01 2018 -0600
+
+    add html
+
+[1mdiff --git a/practicaframe01.html b/practicaframe01.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d57c3a3[m
+[1m--- /dev/null[m
+[1m+++ b/practicaframe01.html[m
+[36m@@ -0,0 +1,88 @@[m
+[32m+[m[32m<html xmlns="http://www.w3.org/1999/xhtml">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <link type="text/css" id="dark-mode" rel="stylesheet" href="" />[m
+[32m+[m[32m    <meta charset="UTF-8" />[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="ie=edge" />[m
+[32m+[m[32m    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>[m
+[32m+[m[32m    <title>Document</title>[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body class="a-body ">[m
+[32m+[m[32m    <a-scene class="fullscreen" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui=""><canvas class="a-canvas"[m
+[32m+[m[32m            data-aframe-canvas="true" width="300" height="150"></canvas>[m
+[32m+[m[32m        <a-box color="#f1ca6f" width="1" height="1" depth="1" position="0 2.5 -1" material="" geometry="">[m
+[32m+[m[32m            <a-plane color="#663300" width="1" height="0.3" position="0 0.35 0.501" material="" geometry="">[m
+[32m+[m[32m                <a-plane color="#663300" width=".1" height=".1" position="0.45 -0.2 0" material="" geometry="">[m
+[32m+[m[32m                    <!-- Reflejar en eje X-->[m
+[32m+[m[32m                </a-plane>[m
+[32m+[m
+[32m+[m[32m                <a-plane color="#663300" width=".1" height=".1" position="-0.45 -0.2 0" material="" geometry="">[m
+[32m+[m[32m                </a-plane>[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <a-plane color="#663300" width="1" height="0.3" position="0.501 0.35 0.0007980809885231865" rotation="0 90 0"[m
+[32m+[m[32m                material="" geometry="">[m
+[32m+[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <a-plane color="#663300" width="1" height="0.3" position="0 0.35 -0.501" rotation="0 180 0" material=""[m
+[32m+[m[32m                geometry="">[m
+[32m+[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <a-plane color="#663300" width="1" height="0.3" position="-0.501 0.35 -0.005873515278492836" rotation="180 90 0"[m
+[32m+[m[32m                material="" geometry="">[m
+[32m+[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <a-plane color="#663300" width="1" height="1" rotation="-90 0 0" position="0.0033379538248689 0.501 0"[m
+[32m+[m[32m                material="" geometry="">[m
+[32m+[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <!--Ojos-->[m
+[32m+[m[32m            <a-plane color="#653F8F" width=".15" height=".15" position="-0.175 0 .501" material="" geometry="">[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <a-plane color="#653F8F" width=".15" height=".15" position="0.175 0 .501" material="" geometry="">[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <a-plane color="#FFFFFF" width=".15" height=".15" position="-0.325S 0 .501" material="" geometry="">[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <a-plane color="#FFFFFF" width=".15" height=".15" position="0.325 0 .501" material="" geometry="">[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <!--Nariz-->[m
+[32m+[m[32m            <a-plane color="#a25b34" width=".20" height=".15" position="0 -0.15 .501" material="" geometry="">[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m            <!--Boca-->[m
+[32m+[m[32m            <a-plane color="#4c280e" width=".40" height=".15" position="0 -0.35 .501" material="" geometry="">[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m        </a-box>[m
+[32m+[m[32m        <!--Cuerpo-->[m
+[32m+[m[32m        <a-box color="#15bfbc" width="1" height="1.5" depth=".6" position="0 1.25 -1" material="" geometry="">[m
+[32m+[m[32m            <a-plane color="#f1ca6f" width=".350" height=".15" position="0 .7 .301" material="" geometry=""></a-plane>[m
+[32m+[m[32m            <a-plane color="#f1ca6f" width=".20" height=".15" position="0 .6 .301" material="" geometry=""></a-plane>[m
+[32m+[m[32m        </a-box>[m
+[32m+[m[32m        <!--Brazos-->[m
+[32m+[m[32m        <a-box color="#f1ca6f" width=".4" height="1.3" depth=".4" position=".7 1.4 -1.4" rotation="225 0 0" material="" geometry="">[m
+[32m+[m[32m            <a-plane color="#15bfbc" width=".40" height=".40" position="0 -.651 0" rotation="90 0 0" material="" geometry="" side="double">[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 0.201 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 -0.201 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position=".201 0 -.2" rotation="180 90 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m        </a-box>[m
+[32m+[m[32m        <a-box color="#f1ca6f" width=".4" height="1.3" depth=".4" position="-.7 1.7 -.5" rotation="90 0 0" material="" geometry="">[m
+[32m+[m[32m            <a-plane color="#15bfbc" width=".40" height=".40" position="0 -.651 0" rotation="90 0 0" material="" geometry="" side="double">[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 0.2 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="0 -0.2 -.2" rotation="90 0 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m                <a-plane color="#15bfbc" width=".40" height=".40" position="-.201 0 -.2" rotation="180 90 0" material="" geometry="" side="double"></a-plane>[m
+[32m+[m[32m            </a-plane>[m
+[32m+[m[32m        </a-box>[m
+[32m+[m[32m        <!--Plano-->[m
+[32m+[m[32m        <a-plane color="#3366ff" width="10" height="10" side="double" rotation="90 0 0" material="" geometry="">[m
+[32m+[m[32m        </a-plane>[m
+[32m+[m[32m        <a-sky color="#ECECEC" material="" geometry="" id="background" src="#skyTexture" theta-length="90" radius="30"></a-sky>[m
+[32m+[m[32m    </a-scene>[m
+[32m+[m
+[32m+[m[32m    <div id="extwaiimpotscp" style="display:none" v="{5776" f="ZXpVM056WmlaRGt3TFROa01Ea3RORE5pTlMxaE56WTVMVGhrWVRNM00yVTVPREl3Wm4wPQ=="[m
+[32m+[m[32m        q="81762d0b" c="37.69" i="41.69" u="711.6" s="431ae3bd" w="false" m="BMe="></div><a style="display: none;" href="blob:null/92ad65ca-9275-4598-b070-701010d3dae3"[m
+[32m+[m[32m        download="c-users-raymond-20calderon-desktop-practicaframe01-html"></a>[m
+[32m+[m[32m    <div title="Google Translator Anywhere" class="itanywhere-activator" style="left: 1269px; top: 92px; display: none;"></div>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+
+[33mcommit c8164b60d289230811947e8428d6019eb8c8220a[m
+Author: RaymondCalderon <32958433+RaymondCalderon@users.noreply.github.com>
+Date:   Thu Nov 8 10:04:35 2018 -0600
+
+    Initial commit
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..692354e[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# RaymondCalderon.github.io[m
+\ No newline at end of file[m
